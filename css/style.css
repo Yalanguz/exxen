@@ -1,0 +1,264 @@
+body{
+    background: #000;
+}
+/* Navbar */
+a{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.navmain{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 126.39px;
+    border: ;
+    background: #ffcb04;
+}
+.ticariresp{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 60px;
+}
+.ticari70{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    color: #ffcb04;
+    background: #000;
+    font-weight: bold;
+}
+.lefempty{
+    width: 15%;
+    height: 126.39px;
+    border: ;
+}
+.centercontain{
+    display: flex;
+    width: 70%;
+    height: 126.39px;
+    border: ;
+}
+.exxenlogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 126.39px;
+    border: ;
+}
+.exxenimg{
+    width: 265.70px;
+    height: 70px;
+    border: ;
+}
+.list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 60%;
+    height: 126.39px;
+    border: ;
+}
+.ticariuye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 154.48px;
+    height: 44.39px;
+    border: ;
+    color: #ffcb04;
+    background: #000;
+    font-size:12px;
+    font-weight: bold;
+}
+.uyegiris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 73.28px;
+    height: 44.39px;
+    border: ;
+    font-size:15px;
+    font-weight: bolder;
+    color: black;
+    border: 2px solid black;
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 73.28px;
+    height: 44.39px;
+    border: ;
+    color: black;
+}
+.stackcontanier{
+    background: #000;
+    z-index: 100;
+}
+@media screen and (max-width:2550px) {
+    .ticariuye{
+        width: 260.48px;
+        height: 44.39px;       
+    }
+    .stackcontanier{
+        margin-top: -70px;
+    }    
+}
+@media screen and (max-width:998px) {
+    .ticariuye{
+        width: 160.48px;     
+    }
+
+}
+@media screen and (max-width:855px) {
+    .hstack{
+        display: block !important;
+        width: 100% !important;
+    }
+    .hstack input{
+        width: 70% !important;
+        margin-left: 15%;
+    }
+    .hstack button{
+        width: 70% !important;
+        margin-left: 15%;
+    }
+    .stackcontanier{
+        margin-top: -0px;
+    } 
+    .navmain{
+        height: 100.19px;       
+    }
+    .exxenlogo{
+        align-items: flex-start;
+        margin-top: 10px;
+        height: 80px;
+    }
+    .list{
+        align-items: flex-start;
+        margin-top: 17px;
+        height: 47.59px;
+    }
+    .ticariresp{
+        background: #ffcb04;
+        margin-top: 0px;
+        padding: bottom 5px;
+    }
+    .ticari70{
+        display: flex;
+        height: 45.59px;
+    }
+    .ticariuye{
+        display: none;
+    }
+    .lefempty{
+        height: 100px;
+    }
+}
+@media screen and (max-width:619px) {
+    .centercontain{
+        margin-left: 10px;
+        width: 100%;        
+    }
+    .lefempty{
+        display: none;
+        width: 5%;
+    }
+    .ticari70{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        width: 100%;
+        height: 45.59px;
+        height: 37px;
+    }
+    .stackcontanier{
+        
+    } 
+    .hstack input{
+        width: 97% !important;
+        margin-left: 10px;
+    }
+    .hstack button{
+        width: 97% !important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .lang{
+        margin: 0px;
+    }
+    .uyegiris{
+        margin: 0px;
+    }
+    .exxenimg{
+        width: 100% !important;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .cardconbir{
+        width: 100% !important;
+    }
+    .cardconiki{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:434px) {
+    .exxenimg> a > img{
+        width: 200.70px;
+        height: 70px;
+        border: ;
+    }
+    .uyegiris{display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        margin: 2px;
+        padding: 0px;
+    }
+    .lang{
+        width: 45px;
+        margin: 2px;
+    }
+    .list{
+        margin-right: 5px; 
+    }
+}
+@media screen and (max-width:332px){
+    .exxenimg> a > img{
+        width: 150.70px;
+        height: 70px;
+        border: ;
+    }
+    .ticari70{
+        width: ;
+        height: 30px;
+    }
+    
+}
+.card-body{
+    height: 50px !important;
+}
+.card{
+    border-radius: 0px !important;
+    box-shadow: 0px;
+    border: 0px;
+    background: #000;
+}
+ticarilinkdecorasyon
+    
